@@ -8,7 +8,7 @@ import sqlalchemy.orm
 
 SALT = "giuavoerhmcgiuerhougeaiuvhgeaf"
 
-engine = sqlalchemy.create_engine("sqlite:///tictac.db", echo=False)
+engine = sqlalchemy.create_engine("sqlite:///database.db", echo=False)
 Base = sqlalchemy.orm.declarative_base()
 Session = sqlalchemy.orm.sessionmaker(engine)
 session = None
