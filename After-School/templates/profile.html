@@ -3,10 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>{{ data.profile.username }}'s After School profile</title>
 </head>
 <body>
-    <a href="/"><h1>TicTac Home</h1></a>
+    <a href="/"><h1>After School Home</h1></a>
     <h1>{{ data.profile.username }} @{{ data.profile.display_name }}</h1>
     <p>{{ data.profile.follower_count }} Followers.</p>
     {% if data.signed_in %}<form action="/follow" , method="post">

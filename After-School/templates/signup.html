@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup for TicTac</title>
+    <title>Signup for After School</title>
 </head>
 <body>
-    <a href="/"><h1>TicTac Home</h1></a>
-    <h2>Signup for TicTac</h2>
+    <a href="/"><h1>After School Home</h1></a>
+    <h2>Signup for After School</h2>
     <form action="/signup{{ "?redirect=" + request.args["redirect"] if "redirect" in request.args else "" }}" method="post">
         <label for="displayname">Display name</label><input id="displayname" type="text" name="displayname" maxlenght="32" /><br />
         <label for="username">Username</label><input id="username" type="text" name="name" maxlenght="32" /><br />
